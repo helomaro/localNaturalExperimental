@@ -1,0 +1,49 @@
+.cabecalho {
+    background-color: #c65353;
+    padding-top: 1.5em;
+}
+
+.cabecalho__titulo {
+    font-family: 'Chelsea Market', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    padding-bottom: 1.5rem;
+}
+
+.cabecalho__menu {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #4d9933;
+    padding: 0 
+}
+
+.cabecalho__item-menu {
+    display: inline-block;
+    padding: 0.2rem 1.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (min-width: 320px) {
+    .cabecalho__menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (min-width: 414px){
+    .cabecalho__menu {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cabecalho__menu {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+}
